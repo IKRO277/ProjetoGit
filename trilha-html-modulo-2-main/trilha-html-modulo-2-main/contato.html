@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="clinica.html">Clinica</a></li>
+                <li><a href="atendimento.html">atendimento</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" style="background: url(img/imagem2.jpg);">
+                <h1>Essa é minha clinica</h1>
+                <h2> bem vindo amigo</h2>
+            </div>
+    
+            <div class="content">
+               <p>Contato: 95 98419-1207</p>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7969.978433987582!2d-60.67971626344289!3d2.819279504526633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d930504cf7048d7%3A0x1224abd5173be556!2sCl%C3%ADnica%20AmorSa%C3%BAde%20Boa%20Vista%20Centro!5e0!3m2!1spt-BR!2sbr!4v1688069723096!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="display: inline;"></iframe>
+               <form>
+                    <label for="campo nome">Nome</label>
+                    <input id="campo nome" type="text" placeholder="Digite seu nome" required>
+                    <br>
+                    <label for="campo email">Email</label>
+                    <input id="campo email" type="email" placeholder="Digite seu email" required>
+                    <br>
+                    <label for="campo assunto">Assunto</label>
+                    <input id="campo assunto" type="text" placeholder="digite sua mensagem" required>
+                    <br>
+                    <textarea name="mensagem" placeholder="digite sua mensagem" rows="15" cols="50"></textarea>
+                    <br>
+                    <label for="enviar1">Enviar</label>
+                    <input id="enviar1" type="submit" value="enviar formulario">
+                    <button type="reset">Resetar</button>
+               </form>
+            </div>
+    
+            <div class="footer">
+                <span style="display: inline-block;">Contatos:</span>
+                meu insta: ikro27
+            </div>
+        </div>
+    </div>
+</body>
+</html>
