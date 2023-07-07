@@ -1,0 +1,7 @@
+crie um cronograma de estudos para que eu possa me preparar para as vagas abaixo
+
+Experiência na linguagem de programação JAVA Spring Cloud, conhecimento em framework (Microserviços; Spring Boot, JSF, Vraptor, Struts ou JUnit), conhecimento básico de containers e orquestração (Docker e Kubernetes). Experiência com APIs, vivência em ambiente de metodologia ágil e atuação com ferramentas de gestão de projetos (Jira, Trello, etc). Experiência com ferramentas de mensageria (Kafka, Event Hub), contato com banco de dados (SQL, Oracle, Postegre ou MongoDB) e experiência com plataformas Cloud.
+
+--
+
+Escreva um artigo resumido sobre funções matemáticas, com um tom de voz como se estivesse explicando para uma criança de 10 anos.

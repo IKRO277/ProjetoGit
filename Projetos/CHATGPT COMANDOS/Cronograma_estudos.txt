@@ -1,0 +1,3 @@
+crie um cronograma de estudo sobre javascript dividido em módulos e tópicos, aonde eu possa aprender em 21 dias em 2 horas por dia.
+
+crie um cronograma de estudo sobre javascript dividido em módulos e tópicos, aonde eu possa dominar javascript em 21 dias em 2 horas por dia. organizado por dias da semana.

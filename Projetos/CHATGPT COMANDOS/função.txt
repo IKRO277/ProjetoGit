@@ -1,0 +1,7 @@
+crie uma função que retorne somente números de um conteúdo alfanumérico
+
+(REGRAS)
+>Linguagem javascipt
+>Imput: codestring
+>Output: numberID:number
+>Aplique boas práticas de clean code

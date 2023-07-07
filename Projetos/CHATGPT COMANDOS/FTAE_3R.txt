@@ -1,0 +1,15 @@
+Me escreva um artigo sobre os primeiros passos no GameMaker, em tom de conversa com uma criança de 10 anos. Agora use s itens em {RESUMO} para o {ROTEIRO} seguindo as {REGRAS}
+
+{RESUMO}
+[Autoridade]: Icaro, desenvolverdor fullstack
+[Avatar]:Desenvolvedores Júniors
+[Problema]: Como usar a GameMaker
+
+{ROTEIRO}
+Olá eu sou [Autoridade] e vou ajudar o [Avatar]
+Hoje vamos resolver o [Problema]
+
+{Regras}
+> Siga o {Roteiro} acima e substitua os elementos entre por aqueles listados em {RESUMO} acima.
+> Mantenha o tom e ritmo, mas reescreva as palavras em {ROTEIRO} para que seja diferente do original, expandindo ou mudando conforme o necessário.
+> Use analogias simples e hipérboles.

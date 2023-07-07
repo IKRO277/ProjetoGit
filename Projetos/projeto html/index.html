@@ -1,0 +1,246 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/index.css" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/711728d662.js" crossorigin="anonymous"></script>
+<title>musicfinder.com</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="img/logo2.png" alt="JobFinder">
+					</a>
+					<i class="fas fa-bars btn-menumobile"></i>
+					<ul>
+						<li><a href="findmusic.html">Encontrar música</a></li>
+						<li><a href="sendmusic.html">Enviar Música</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div id="main-banner">
+				<div id="search-form">
+					<h1>A maneira mais fácil de encontrar sua música</h1>
+					<p>Conecte-se de forma gratuita as melhores empresas de streaming.</p>			
+					<form>
+						<input type="text" name="job" placeholder="Digite a música">
+						<select name="region">
+							<option value="">Todos os estilos</option>
+						</select>
+						<select name="category">
+							<option value="">País</option>
+						</select>
+						<input type="submit" value="Pesquisar">
+					</form>
+				</div>
+			</div>
+		</header>
+    <main id="lastmusics-container" class="wrapper">
+			<h1>Últimas músicas enviadas</h1>
+			<ul>
+				<li>
+					<a href="musica.html" class="clickarea">
+						<div class="company-box">
+							<img src="img/logospotfy.png">
+							<div class="company-info">
+								<h3>Fear of the dark - Iron Maiden</h3>
+								<p>Spotify</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Mountain View, California</p>
+						</div>
+						<div class="music-type">
+							<span class="ROCK">ROCK</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="company-box">
+							<img src="img/logodeezer.png">
+							<div class="company-info">
+								<h3>Ana Júlia - Los Hermanos</h3>
+								<p>Deezer</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Lisboa, Portugal</p>
+						</div>
+						<div class="music-type">
+							<span class="POP">POP</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="company-box">
+							<img src="img/logoitunes.jpeg">
+							<div class="company-info">
+								<h3>Trem bala - Filipe Ret</h3>
+								<p>Itunes</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Rio de Janeiro, Brasil</p>
+						</div>
+						<div class="music-type">
+							<span class="RAP">RAP</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="clickarea">
+						<div class="company-box">
+							<img src="img/logoamazon.png">
+							<div class="company-info">
+								<h3>Neon - Jhon Mayer</h3>
+								<p>Amazon Music</p>
+							</div>
+						</div>
+						<div class="locality">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>Menlo Park, California</p>
+						</div>
+						<div class="music-type">
+							<span class="POP">POP</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="btnmusic-container">
+				<a href="#" class="btn-music">Ver mais músicas</a>
+			</div>
+		</main>
+		<section id="sendmusic-container">
+			<div id="sendmusic-inner" class="wrapper">
+				<h2>Envie uma música que será vista por milhares de ouvintes.</h2>
+				<p>Adicione imediatamente sua música ao nosso sistema de streaming.
+					Não fique por fora dessa!!!
+				</p>
+				<a href="#" class="light-btn">Enviar música</a>
+			</div>
+		</section>
+  <section id="status-container" class="wrapper">
+	<h2 class="title-center">Estatísticas do site</h2>
+	<p class="p-center">Seu som contribui com nosso crescimento</p>
+	<div>
+		<div class="status-box">
+			<span class="status-qtd">150</span>
+			<p class="status-text">músicas adicionadas</p>
+		</div>
+		<div class="status-box">
+			<span class="status-qtd">250</span>
+			<p class="status-text">usuários do site</p>
+		</div>
+		<div class="status-box">
+			<span class="status-qtd">50</span>
+			<p class="status-text">Empresas patrocinantes</p>
+		</div>
+		<div class="status-box">
+			<span class="status-qtd">550</span>
+			<p class="status-text">Em espera</p>
+		</div>
+	</div>
+</section>
+<section id="blog-container" class="wrapper">
+	<h2 class="title-center">Últimos artigos do nosso blog</h2>
+	<p class="p-center">Confira as mais recentes notícias e novidades no mundo da música.</p>
+	<div class="article-box">
+		<img src="img/blog1.jpeg">
+		<h4><a href="#">Novo album do RHCP</a></h4>
+		<p class="article-date">03 de dezembro de 2022 | 10 comentários</p>
+		<p class="article-resume">A banda Red Hot Chili Pepper agradece fans lançando seu mais novo albúm com a volta do mais esperado músico Jhon Frusciante.</p>
+		<a href="#" class="article-btn light-btn">Ler post</a>
+	</div>
+	<div class="article-box">
+		<img src="img/blog2.jpeg">
+		<h4><a href="#">November Rain ganha Remake.</a></h4>
+		<p class="article-date">02 dezembro de 2022 | 05 comentários</p>
+		<p class="article-resume">Banda Guns an Roses resolve lançar nova versão de estúdio da famosa November Rain, veja mais:</p>
+		<a href="#" class="article-btn light-btn">Ler post</a>
+	</div>
+	<div class="article-box">
+		<img src="img/blog3.jpeg">
+		<h4><a href="#">Consegue tocar ?</a></h4>
+		<p class="article-date">05 de novembro de 2022 | 24 comentários</p>
+		<p class="article-resume">Polyphia atraiu novos públicos com sua música instrumental "Playng God" seu nível de dificuldade se tornou um desafio para muitos guitarristas.</p>
+		<a href="#" class="article-btn light-btn">Ler post</a>
+	</div>
+</section>
+<footer>
+	<div class="wrapper">
+		<div class="footer-box">
+			<div class="company-footer">
+				<img src="img/logo2.png">
+				<h2>MusicFinder</h2>
+				<p>Facilitando a sua vida.</p>
+			</div>
+		</div>
+		<div class="footer-box">
+			<div class="articles-footer">
+				<h2>Artigos rescentes</h2>
+				<ul class="footer-list footer-article-list">
+					<li>
+						<a href="#">Novo album do RHCP.</a>
+						<span class="article-date">03 de dezembro de 2022</span>
+					</li>
+					<li>
+						<a href="#">November Rain ganha Remake.</a>
+						<span class="article-date">02 dezembro de 2022</span>
+					</li>
+					<li>
+						<a href="#">Consegue tocar ?</a>
+						<span class="article-date">05 de novembro de 2022</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-box">
+			<h2>Me encontra nas redes sociais</h2>
+			<ul class="footer-list">
+				<li>
+					<a href="#">
+						<i class="fab fa-facebook-square"></i>
+						<span>Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-instagram"></i>
+						<span>Instagram</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-linkedin"></i>
+						<span>Linkedin</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="wrapper">
+			<p>Ícaro D Paula</p>
+		</div>
+	</div>
+</footer>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            -webkit-box-shadow: 10px 10px 9px 0px rgba(199,199,199,1);
+-moz-box-shadow: 10px 10px 9px 0px rgba(199,199,199,1);
+box-shadow: 10px 10px 9px 0px rgba(199,199,199,1);
+border: solid 1px gray;
+            
+        }
+        table thead{
+            background-color: black;
+            color: white;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td{
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+        table tfoot{
+            background-color: rgb(180, 180, 180);
+        }
+    </style>
+</head>
+<body>
+    <table width="250" align="center" cellspacing="0" cellpading="5">
+        <caption>Tabela de idade dos alunos.</caption>
+       <thead>
+        <tr>
+            <th colspan="2">minha tabela</th>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+       </thead>
+        <tbody>
+        <tr>
+            <td>Icaro</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Daniela</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Emilly</td>
+            <td>18</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+            <td>total</td>
+            <td>6</td>
+        </tr>
+       </tfoot>
+    </table>
+</body>
+</html>

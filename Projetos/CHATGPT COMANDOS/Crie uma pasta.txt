@@ -1,0 +1,1 @@
+Crie uma sugestão de estrutura de pastas com boas práticas que contenham para projetos que contenham:
